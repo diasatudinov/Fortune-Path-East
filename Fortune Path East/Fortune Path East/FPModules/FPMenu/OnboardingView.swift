@@ -1,3 +1,11 @@
+//
+//  OnboardingView.swift
+//  Fortune Path East
+//
+//
+
+import SwiftUI
+
 // MARK: - Onboarding
 
 struct OnboardingView: View {

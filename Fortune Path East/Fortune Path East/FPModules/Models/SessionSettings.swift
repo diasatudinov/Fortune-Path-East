@@ -1,3 +1,11 @@
+//
+//  SessionSettings.swift
+//  Fortune Path East
+//
+//
+
+import SwiftUI
+
 // MARK: - Models
 
 struct SessionSettings: Codable, Equatable {
