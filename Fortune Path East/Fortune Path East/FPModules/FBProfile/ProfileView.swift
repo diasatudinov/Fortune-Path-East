@@ -1,3 +1,11 @@
+//
+//  ProfileView.swift
+//  Fortune Path East
+//
+//
+
+import SwiftUI
+
 // MARK: - Profile
 
 struct ProfileView: View {
@@ -54,7 +62,7 @@ struct ProfileView: View {
                         Text("Clear Session History")
                             .frame(maxWidth: .infinity)
                             .padding()
-                            .background(AppTheme.red.opacity(0.15))
+                            .background(Color.white.opacity(0.15))
                             .clipShape(RoundedRectangle(cornerRadius: 16))
                     }
                 }

@@ -1,3 +1,11 @@
+//
+//  LineChart.swift
+//  Fortune Path East
+//
+//
+
+import SwiftUI
+
 // MARK: - Charts
 
 struct LineChart: View {

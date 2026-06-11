@@ -1,3 +1,12 @@
+//
+//  LiveTrackerView.swift
+//  Fortune Path East
+//
+//
+
+import SwiftUI
+
+
 // MARK: - Live Tracker
 
 struct LiveTrackerView: View {
