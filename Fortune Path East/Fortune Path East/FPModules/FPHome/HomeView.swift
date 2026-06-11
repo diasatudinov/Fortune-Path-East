@@ -1,3 +1,11 @@
+//
+//  HomeView.swift
+//  Fortune Path East
+//
+//
+
+import SwiftUI
+
 // MARK: - Home
 
 struct HomeView: View {

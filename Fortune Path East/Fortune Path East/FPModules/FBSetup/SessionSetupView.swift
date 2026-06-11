@@ -1,3 +1,11 @@
+//
+//  SessionSetupView.swift
+//  Fortune Path East
+//
+//
+
+import SwiftUI
+
 // MARK: - Session Setup
 
 struct SessionSetupView: View {

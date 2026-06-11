@@ -1,3 +1,11 @@
+//
+//  WisdomLibraryView.swift
+//  Fortune Path East
+//
+//
+
+import SwiftUI
+
 // MARK: - Wisdom Library
 
 struct WisdomLibraryView: View {

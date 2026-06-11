@@ -2,17 +2,23 @@
 //  FPRootView.swift
 //  Fortune Path East
 //
-//  Created by Dias Atudinov on 10.06.2026.
 //
 
 import SwiftUI
 
 struct FPRootView: View {
+    @EnvironmentObject private var store: AppStore
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        if store.hasSeenOnboarding {
+            FPMenuView()
+        } else {
+            OnboardingView()
+        }
     }
 }
 
 #Preview {
     FPRootView()
+        .environmentObject(AppStore())
 }
