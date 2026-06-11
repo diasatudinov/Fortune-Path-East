@@ -1,3 +1,11 @@
+//
+//  EastCard.swift
+//  Fortune Path East
+//
+//
+
+import SwiftUI
+
 // MARK: - Reusable UI
 
 struct EastCard<Content: View>: View {
